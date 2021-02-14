@@ -97,7 +97,7 @@ class ProductItem extends HTMLElement {
       text-overflow: unset;
     }`;
     
-    shadow.append(item, style);
+    shadow.append(style, item);
   }
 
 }
